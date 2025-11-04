@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Blog Platform 2026</title>
+    <meta
+      name="description"
+      content="Modern Blog Platform 2026 – a forward-looking technical publication blending AI-crafted storytelling, pragmatic DevOps insights, and a refined reading experience inspired by blog.bh-systems.be."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary">
+      <div class="site-header__inner">
+        <a class="brand" href="#home">
+          <span class="brand__mark" aria-hidden="true">MB</span>
+          <span class="brand__label">Modern Blog 2026</span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a href="#articles">Articles</a>
+          <a href="#features">Platform</a>
+          <a href="#ai">AI Studio</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#newsletter" class="site-nav__cta">Subscribe</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero__inner">
+          <div class="hero__copy">
+            <p class="eyebrow">DevOps · Cloud · AI Delivery</p>
+            <h1>Engineering stories with the polish of 2026</h1>
+            <p>
+              Inspired by the calm precision of <strong>blog.bh-systems.be</strong>, Modern Blog 2026
+              keeps the focus on clarity: pragmatic tutorials, operational playbooks, and
+              AI-curated discoveries—rendered on an edge-native, accessibility-first stack.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#articles">Explore the publication</a>
+              <a class="btn btn--ghost" href="#features">Meet the platform</a>
+            </div>
+          </div>
+          <div class="hero__card" aria-label="Featured article preview">
+            <p class="hero__card-label">Featured insight</p>
+            <h2>Blueprinting zero-downtime rollouts on Vercel Edge</h2>
+            <p>
+              Learn how Modern Blog orchestrates blue-green deployments, instant rollback, and
+              AI-observed telemetry for mission critical posts.
+            </p>
+            <a class="hero__card-link" href="#articles">Read the case study →</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="articles" class="section section--alt">
+        <div class="section__header">
+          <h2>Latest from the engineering desk</h2>
+          <p>Hand-picked insights delivered with a familiar, reader-first presentation.</p>
+        </div>
+        <div class="article-grid">
+          <article class="article-card">
+            <p class="article-card__meta">DevOps · May 2026</p>
+            <h3>GitOps reliability checks with OpenPolicyAgent</h3>
+            <p>
+              Align release policies with automated guardrails that echo the production stories you
+              know from BH Systems.
+            </p>
+            <a href="#" aria-label="Read GitOps reliability checks">Read more</a>
+          </article>
+          <article class="article-card">
+            <p class="article-card__meta">Cloud Architecture · Apr 2026</p>
+            <h3>Multi-region AWS blueprints in plain language</h3>
+            <p>
+              Break down complex routing, failover, and compliance decisions with step-by-step
+              diagrams and IaC snippets.
+            </p>
+            <a href="#" aria-label="Read Multi-region AWS blueprints">Read more</a>
+          </article>
+          <article class="article-card">
+            <p class="article-card__meta">AI Delivery · Mar 2026</p>
+            <h3>Using embeddings for developer knowledge bases</h3>
+            <p>
+              Build semantic search that prioritises credible answers, versioned references, and
+              real-world runbooks.
+            </p>
+            <a href="#" aria-label="Read Using embeddings for developer knowledge bases">Read more</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="section__header">
+          <h2>The platform, at a glance</h2>
+          <p>
+            Familiar layout. Modern underpinnings. Tailored to teams who balance delivery cadence
+            with reliability and trust.
+          </p>
+        </div>
+        <div class="pillars">
+          <article class="pillar">
+            <h3>Readable by design</h3>
+            <p>
+              Tight typographic rhythm, restrained colour, and whitespace that mirrors the BH Systems
+              reading experience across devices.
+            </p>
+            <ul>
+              <li>Inter typography tuned for long-form content</li>
+              <li>Auto dark-mode palette switching</li>
+              <li>Accessible code blocks with copy-to-clipboard</li>
+            </ul>
+          </article>
+          <article class="pillar">
+            <h3>Operational confidence</h3>
+            <p>
+              Edge-native rendering, caching discipline, and CI/CD instrumentation grounded in
+              real-world DevOps practice.
+            </p>
+            <ul>
+              <li>Next.js 15 server components and React 19</li>
+              <li>Blue-green deployments on Vercel Edge</li>
+              <li>Observability with OpenTelemetry + Sentry</li>
+            </ul>
+          </article>
+          <article class="pillar">
+            <h3>Community heartbeat</h3>
+            <p>
+              Foster discussion, capture feedback, and surface curated insights without distracting
+              from the narrative.
+            </p>
+            <ul>
+              <li>Threaded comments with moderation queue</li>
+              <li>Member highlights and author spotlights</li>
+              <li>Newsletter engine with segmentation</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="ai" class="section section--alt">
+        <div class="section__header">
+          <h2>AI studio for trusted technical knowledge</h2>
+          <p>
+            Augment editors with explainable automation: every suggestion keeps human review in the
+            loop to match BH Systems' editorial tone.
+          </p>
+        </div>
+        <div class="ai-grid">
+          <article class="ai-card">
+            <h3>Draft co-pilot</h3>
+            <p>
+              Generate outlines, translations, and SEO briefs in seconds, then co-edit with natural
+              language prompts.
+            </p>
+            <dl>
+              <div>
+                <dt>Powered by</dt>
+                <dd>GPT-4 Turbo + fine-tuned tone adapters</dd>
+              </div>
+              <div>
+                <dt>Guardrails</dt>
+                <dd>Static analysis, fact checking, policy filters</dd>
+              </div>
+            </dl>
+          </article>
+          <article class="ai-card">
+            <h3>Semantic discovery</h3>
+            <p>
+              Vector search highlights related walkthroughs, case studies, and glossary entries per
+              reader profile.
+            </p>
+            <dl>
+              <div>
+                <dt>Infrastructure</dt>
+                <dd>PostgreSQL 16 + pgvector + Redis</dd>
+              </div>
+              <div>
+                <dt>Signals</dt>
+                <dd>Reading depth, recency, collaborative filtering</dd>
+              </div>
+            </dl>
+          </article>
+          <article class="ai-card">
+            <h3>Adaptive presentation</h3>
+            <p>
+              Auto-adjust component density, navigation patterns, and code highlighting based on
+              device capability.
+            </p>
+            <dl>
+              <div>
+                <dt>Edge runtime</dt>
+                <dd>0.8&nbsp;s median TTFB worldwide</dd>
+              </div>
+              <div>
+                <dt>Personalisation</dt>
+                <dd>Privacy-first, per-session inference</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section">
+        <div class="section__header">
+          <h2>Roadmap to launch</h2>
+          <p>Transparent milestones that echo the evolution of the current BH Systems blog.</p>
+        </div>
+        <ol class="roadmap">
+          <li>
+            <h3>Phase 1 · Design refresh</h3>
+            <p>Codify typography, navigation, and theming with Tailwind CSS 4 and design tokens.</p>
+          </li>
+          <li>
+            <h3>Phase 2 · AI augmentation</h3>
+            <p>Integrate the drafting co-pilot, semantic search, and newsletter personalisation.</p>
+          </li>
+          <li>
+            <h3>Phase 3 · Community roll-out</h3>
+            <p>Enable profiles, moderated discussions, and shared playbooks.</p>
+          </li>
+          <li>
+            <h3>Phase 4 · Mobile deep dive</h3>
+            <p>Ship the PWA shell with offline reading, push alerts, and quick-save snippets.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section section--alt metrics" id="metrics">
+        <div class="section__header">
+          <h2>Impact targets</h2>
+          <p>Grounded KPIs that match the expectations of modern technical readers.</p>
+        </div>
+        <dl class="metrics__grid">
+          <div>
+            <dt>&lt; 1.5 s</dt>
+            <dd>Edge-rendered initial page load worldwide</dd>
+          </div>
+          <div>
+            <dt>95+</dt>
+            <dd>Lighthouse SEO and accessibility scores</dd>
+          </div>
+          <div>
+            <dt>+60%</dt>
+            <dd>Return reader uplift through personalisation</dd>
+          </div>
+          <div>
+            <dt>AAA</dt>
+            <dd>WCAG 2.2 compliance across content layouts</dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="newsletter">
+      <div class="site-footer__inner">
+        <div class="site-footer__about">
+          <h2>Stay in the loop</h2>
+          <p>
+            A monthly digest of DevOps deep dives, architecture blueprints, and AI delivery
+            walkthroughs curated by the Modern Blog editorial desk.
+          </p>
+        </div>
+        <form class="newsletter" action="#" method="post">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" name="email" placeholder="your@email.com" required />
+          <button type="submit" class="btn btn--primary">Join the newsletter</button>
+          <p class="newsletter__note">No spam. Unsubscribe at any time.</p>
+        </form>
+      </div>
+      <p class="site-footer__meta">© 2026 Modern Blog Platform · Crafted for the BH Systems community</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
